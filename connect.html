@@ -269,22 +269,13 @@
 
                 <form name="thoughts" method="POST" data-netlify="true" netlify-honeypot="bot-field">
 
-                    <!-- Required hidden field for Netlify -->
-
                     <input type="hidden" name="form-name" value="thoughts">
 
-                    <!-- Spam protection -->
-
                     <p hidden>
-
                         <label>
-
                             Don't fill this out if you're human:
-
                             <input name="bot-field">
-
                         </label>
-
                     </p>
 
                     <div class="mb-4">
@@ -296,29 +287,23 @@
 
                     <div class="mb-4">
 
-                        <select name="category" class="form-select custom-input">
+                        <select name="category" class="form-select custom-input" required>
 
-                            <option selected disabled>
+                            <option value="" selected disabled>
                                 What would you like to leave?
                             </option>
 
-                            <option>
-                                A Thought
-                            </option>
+                            <option value="Thought">A Thought</option>
 
-                            <option>
-                                A Question
-                            </option>
+                            <option value="Question">A Question</option>
 
-                            <option>
-                                Advice
-                            </option>
+                            <option value="Advice">Advice</option>
 
-                            <option>
+                            <option value="Book Recommendation">
                                 Book Recommendation
                             </option>
 
-                            <option>
+                            <option value="Something Interesting">
                                 Something Interesting
                             </option>
 
@@ -340,6 +325,7 @@
                     </button>
 
                 </form>
+
 
             </div>
 
