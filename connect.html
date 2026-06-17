@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Connect | Your Name</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+
+                MOHAMMAD ASLAM
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+
+                            Home
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+
+                            About
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="connect.html">
+
+                            Connect
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+
+    <section class="connect-hero">
+
+        <div class="container text-center">
+
+            <p class="small-heading">
+                LET'S CONNECT
+            </p>
+
+            <h1 class="connect-title">
+
+                Conversations,<br>
+                collaborations & ideas.
+
+            </h1>
+
+            <p class="connect-description">
+
+                Whether it's discussing technology,
+                sharing ideas, collaborating on projects,
+                or simply having meaningful conversations,
+                I am always open to connecting with curious
+                and passionate people.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SOCIAL CARDS -->
+
+    <section class="social-section">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+
+                    <a href="https://www.linkedin.com/in/aslam-mohammad-2631602b2/"
+                        class="social-card text-decoration-none">
+
+                        <div class="social-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>LinkedIn</h4>
+
+                            <p>
+                                Let's connect professionally,
+                                share opportunities and ideas.
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <a href="https://github.com/AslamMd-17" class="social-card text-decoration-none">
+
+                        <div class="social-icon">
+                            <i class="bi bi-github"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>GitHub</h4>
+
+                            <p>
+                                Explore my projects,
+                                experiments and code.
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <a href="https://www.instagram.com/aslam.md007/" class="social-card text-decoration-none">
+
+                        <div class="social-icon">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Instagram</h4>
+
+                            <p>
+                                A glimpse beyond code,
+                                creativity and daily life.
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <a href="mailto:mohammadaslam61710@gmail.com" class="social-card text-decoration-none">
+
+                        <div class="social-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>Email</h4>
+
+                            <p>
+                                Reach out directly for
+                                collaborations or conversations.
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PERSONAL NOTE -->
+
+    <section class="personal-note-section">
+
+        <div class="container">
+
+            <div class="personal-note">
+
+                <i class="bi bi-quote"></i>
+
+                <p>
+
+                    I don't believe meaningful connections
+                    are built through numbers, followers,
+                    or algorithms.
+
+                    They are built through curiosity,
+                    kindness, and genuine conversations.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="thought-section">
+
+        <div class="container">
+
+            <div class="thought-card">
+
+                <i class="bi bi-chat-heart"></i>
+
+                <h2>
+                    Leave Something Behind
+                </h2>
+
+                <p class="thought-description">
+
+                    Before you leave, I'd love to hear from you.
+
+                    It could be a thought, a question that makes me think,
+                    a piece of advice, a book recommendation, a lesson you've
+                    learned, or simply something interesting you'd like to share.
+
+                    Sometimes a single idea can change the way someone sees the world.
+
+                </p>
+
+                <form name="thoughts" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
+                    <!-- Required hidden field for Netlify -->
+
+                    <input type="hidden" name="form-name" value="thoughts">
+
+                    <!-- Spam protection -->
+
+                    <p hidden>
+
+                        <label>
+
+                            Don't fill this out if you're human:
+
+                            <input name="bot-field">
+
+                        </label>
+
+                    </p>
+
+                    <div class="mb-4">
+
+                        <input type="text" name="name" class="form-control custom-input"
+                            placeholder="Your name (optional)">
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <select name="category" class="form-select custom-input">
+
+                            <option selected disabled>
+                                What would you like to leave?
+                            </option>
+
+                            <option>
+                                A Thought
+                            </option>
+
+                            <option>
+                                A Question
+                            </option>
+
+                            <option>
+                                Advice
+                            </option>
+
+                            <option>
+                                Book Recommendation
+                            </option>
+
+                            <option>
+                                Something Interesting
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="mb-4">
+
+                        <textarea name="message" rows="6" class="form-control custom-input"
+                            placeholder="Share your thoughts here..." required></textarea>
+
+                    </div>
+
+                    <button type="submit" class="thought-btn">
+
+                        Leave It Here
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FINAL QUOTE -->
+
+    <section class="final-quote-section">
+
+        <div class="container">
+
+            <div class="final-quote-card">
+
+                <i class="bi bi-stars"></i>
+
+                <p>
+
+                    Still learning.<br>
+                    Still building.<br>
+                    Still moving forward.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        © 2026 MOHAMMAD ASLAM
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
